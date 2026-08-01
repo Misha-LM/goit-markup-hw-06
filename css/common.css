@@ -31,9 +31,10 @@ ul {
 }
 
 .container {
-    width: 1158px;
-    padding: 0 15px;
+    min-width: 320px;
+    max-width: 320px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .sr-only {

@@ -1,29 +1,34 @@
 .hero {
+    background-color: #2e2f42;
+
+    max-width: 320px;
+    margin: 0 auto;
+
+    padding: 72px 0;
+
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url("../images/01b23b295bb31faa9ced18611aad480a574bc6af.jpg");
+        image-set(url("../images/hero-mobile.png") 1x,
+            url("../images/hero-mobile@2x.png") 2x);
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    background-color: #2e2f42;
-    max-width: 1440px;
-    margin: 0 auto;
-
-    padding: 188px 0;
 }
 
 .hero-title {
+    max-width: 216px;
+
+    margin: 0 auto 72px;
+
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
-    margin: 0 auto 48px;
-    max-width: 496px;
+
+    color: #ffffff;
 }
 
 .hero-button {

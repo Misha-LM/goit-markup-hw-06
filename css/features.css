@@ -1,16 +1,17 @@
 /* #region Fatures */
 
 .features {
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .features-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
 }
 
 .features-logo {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 
@@ -22,20 +23,30 @@
     border-radius: 4px;
 
     margin-bottom: 8px;
+
 }
 
 
 .features-item {
-    width: calc((100% - 72px)/ 4);
+    width: 100%;
 }
 
 .features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     margin-bottom: 8px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+    text-align: center;
+
+    color: #2e2f42;
+}
+
+.features-text {
+    font-weight: 500;
+    color: #434455;
 }
 
 /* #endregion */

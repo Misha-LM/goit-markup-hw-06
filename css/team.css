@@ -1,12 +1,14 @@
 /* #region Team */
 .team {
     background-color: #f4f4fd;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .team-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
 }
 
 .team-title {
@@ -24,7 +26,7 @@
     flex-direction: column;
     overflow: hidden;
     background-color: #fff;
-    width: calc((100% - 72px) / 4);
+    width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
 
@@ -41,12 +43,11 @@
 
 .team-name-text {
     padding: 32px 16px;
-    margin-bottom: 8px;
 }
 
 .team-text {
     text-align: center;
-    padding: 8px 28px 0;
+    margin-top: 8px;
 }
 
 .team-social-list {

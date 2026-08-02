@@ -88,6 +88,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    gap: 16px;
 }
 
 .footer-input {
@@ -183,7 +184,7 @@
     .footer-form {
         width: auto;
         flex-direction: row;
-        gap: 16px;
+        gap: 24px;
     }
 
     .footer-input {

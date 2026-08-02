@@ -143,4 +143,29 @@
     cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+    .menu-open-btn {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .contacts {
+        display: block;
+    }
+
+    .header-logo {
+        padding: 24px 0;
+        margin-right: 120px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .header-logo {
+        margin-right: 76px;
+    }
+}
+
 /* #endregion */

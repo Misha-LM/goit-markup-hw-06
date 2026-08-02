@@ -50,8 +50,6 @@
 /* #endregion */
 /* #region Navigation */
 .nav {
-    display: flex;
-    align-items: center;
     display: none;
 }
 
@@ -99,13 +97,8 @@
 
 .contacts-list {
     display: flex;
-    align-items: center;
     margin-left: auto;
     gap: 40px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 
@@ -160,12 +153,38 @@
         padding: 24px 0;
         margin-right: 120px;
     }
+
+    .contacts-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contacts-text {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+
 }
+
 
 @media screen and (min-width: 1158px) {
     .header-logo {
         margin-right: 76px;
     }
+
+    .contacts-list {
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .contacts-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
 }
+
 
 /* #endregion */

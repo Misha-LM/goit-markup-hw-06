@@ -68,6 +68,7 @@
 }
 
 .footer-subscribe {
+    width: 100%;
     text-align: center;
 }
 
@@ -85,7 +86,8 @@
 .footer-form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    width: 100%;
+    align-items: center;
 }
 
 .footer-input {
@@ -135,7 +137,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
+    align-self: center;
     cursor: pointer;
 
     display: flex;
@@ -161,6 +163,7 @@
     }
 
     .footer-subscribe {
+        width: auto;
         text-align: left;
     }
 
@@ -178,9 +181,9 @@
     }
 
     .footer-form {
+        width: auto;
         flex-direction: row;
-        gap: 24px;
-        align-items: center;
+        gap: 16px;
     }
 
     .footer-input {
